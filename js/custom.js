@@ -1,9 +1,9 @@
-
 (function ($) {
 "use strict";
 
 var mapLoaded = false,
     map;
+
 /*---------------Google Maps Scripts-------------------------*/
 function initMap() {
     var mapStyle = [
@@ -684,6 +684,7 @@ $(document).on('ready', function() {
             firstTime = true;
         }
     });
+    
     $(".rotate").textrotator({
        animation: "flipUp",
         speed: 3950               
